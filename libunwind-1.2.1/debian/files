@@ -1,0 +1,7 @@
+libunwind-dev_1.2.1-8_amd64.deb libdevel optional
+libunwind-setjmp0-dbgsym_1.2.1-8_amd64.deb debug optional automatic=yes
+libunwind-setjmp0-dev_1.2.1-8_amd64.deb libdevel optional
+libunwind-setjmp0_1.2.1-8_amd64.deb libs optional
+libunwind8-dbgsym_1.2.1-8_amd64.deb debug optional automatic=yes
+libunwind8_1.2.1-8_amd64.deb libs optional
+libunwind_1.2.1-8_amd64.buildinfo libs optional

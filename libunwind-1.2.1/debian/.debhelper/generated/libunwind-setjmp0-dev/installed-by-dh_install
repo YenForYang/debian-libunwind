@@ -1,0 +1,3 @@
+debian/tmp/usr/lib/x86_64-linux-gnu/libunwind-setjmp.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libunwind-setjmp.a
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/libunwind-setjmp.pc

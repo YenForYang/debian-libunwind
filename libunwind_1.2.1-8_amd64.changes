@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Thu, 12 Apr 2018 16:41:47 +0300
+Source: libunwind
+Binary: libunwind-dev libunwind8 libunwind-setjmp0-dev libunwind-setjmp0
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.2.1-8
+Distribution: unstable
+Urgency: low
+Maintainer: Adrian Bunk <bunk@debian.org>
+Changed-By: Adrian Bunk <bunk@debian.org>
+Description:
+ libunwind-dev - library to determine the call-chain of a program - development
+ libunwind-setjmp0 - libunwind-based non local goto - runtime
+ libunwind-setjmp0-dev - libunwind-based non local goto - development
+ libunwind8 - library to determine the call-chain of a program - runtime
+Changes:
+ libunwind (1.2.1-8) unstable; urgency=low
+ .
+   * libunwind-dev: Depend on liblzma-dev for static linking.
+Checksums-Sha1:
+ f3935bffce597d0adbc75e872f6209a01a5acd19 239344 libunwind-dev_1.2.1-8_amd64.deb
+ 9e83cf38963fc8de4f7f2687c288d207a66d3167 8312 libunwind-setjmp0-dbgsym_1.2.1-8_amd64.deb
+ 51202891f2c912f7b7fd5b572cd3e791e0975043 18996 libunwind-setjmp0-dev_1.2.1-8_amd64.deb
+ 62ebe10e95caf6986ac3891eb61f1d7cfa9eed2c 9408 libunwind-setjmp0_1.2.1-8_amd64.deb
+ ff5ab00a50929b14af9ff31380fd5e18511368e0 225524 libunwind8-dbgsym_1.2.1-8_amd64.deb
+ 8e6f27181c9af4b2c6019423c6566c4a207100fb 78032 libunwind8_1.2.1-8_amd64.deb
+ cb9ffd1fd0e4acabaa1dd3ed0b6e33e45c24f81c 9403 libunwind_1.2.1-8_amd64.buildinfo
+Checksums-Sha256:
+ 4f1654948a55217fa7b326a17a77a20fbeb4de3dcc65046f727c5b8162172558 239344 libunwind-dev_1.2.1-8_amd64.deb
+ d7cd026d1f5aa0f15c43c54592970ce9972071d9c3c5a3199ddf1f0c490f7c07 8312 libunwind-setjmp0-dbgsym_1.2.1-8_amd64.deb
+ ebe0d9825f7c1c3e2c7daf29eeb3a1206a06f01895ba1a3aa4e8d4e23445c96e 18996 libunwind-setjmp0-dev_1.2.1-8_amd64.deb
+ 51b94b20fe230bb2313baa88c8571806e6dfec5cd6784a39d04c6ca4831d2251 9408 libunwind-setjmp0_1.2.1-8_amd64.deb
+ 95db46c736c744a7c8f11383dd93dac46761d3c693544a5b54410a34d6a7a8fd 225524 libunwind8-dbgsym_1.2.1-8_amd64.deb
+ 08bc71885a93aa9706040e578baf15a93d3181f619fd136293f01a3c4c74334a 78032 libunwind8_1.2.1-8_amd64.deb
+ f0b28845533419b17620c2c0b5f5701ab60ebbc398510d2bc1a2b4fe81c90551 9403 libunwind_1.2.1-8_amd64.buildinfo
+Files:
+ 88d12a258819fe9903b364dda9f791d5 239344 libdevel optional libunwind-dev_1.2.1-8_amd64.deb
+ 8f3a1fa5a55c3ce6c18d4d37ee4f1237 8312 debug optional libunwind-setjmp0-dbgsym_1.2.1-8_amd64.deb
+ 5a62b3930632f7281eef99f45110e2bd 18996 libdevel optional libunwind-setjmp0-dev_1.2.1-8_amd64.deb
+ 7bd72a2b2317c19373f1bed4d8ec3ee1 9408 libs optional libunwind-setjmp0_1.2.1-8_amd64.deb
+ 99836adbe93d4c59ec5f76fc6dff767c 225524 debug optional libunwind8-dbgsym_1.2.1-8_amd64.deb
+ 1222b3b9e40f06c30ae11b9c777aab27 78032 libs optional libunwind8_1.2.1-8_amd64.deb
+ 6cab6bbd1c9a274814943c2bec833531 9403 libs optional libunwind_1.2.1-8_amd64.buildinfo

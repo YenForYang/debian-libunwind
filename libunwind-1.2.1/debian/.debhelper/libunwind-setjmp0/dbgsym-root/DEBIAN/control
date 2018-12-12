@@ -1,0 +1,14 @@
+Package: libunwind-setjmp0-dbgsym
+Source: libunwind
+Version: 1.2.1-8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Adrian Bunk <bunk@debian.org>
+Installed-Size: 20
+Depends: libunwind-setjmp0 (= 1.2.1-8)
+Breaks: libunwind8-dbg (<< 1.2.1-1~), libunwind-setjmp0-dbg (<< 1.2.1-1~)
+Replaces: libunwind8-dbg (<< 1.2.1-1~), libunwind-setjmp0-dbg (<< 1.2.1-1~)
+Section: debug
+Priority: optional
+Description: debug symbols for libunwind-setjmp0
+Build-Ids: 716fea05a33cd544509c357c112142e9c420ed57
